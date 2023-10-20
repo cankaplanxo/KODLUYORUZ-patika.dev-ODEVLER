@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8c52f7;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #ff0224;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+img {
+    max-width: 300px;
+    height: 350px; 
+    transition: transform 0.3s ease; /* Resim üzerine gelindiğinde hafif büyüme efekti için geçiş efekti */
+}
+
+img:hover {
+    transform: scale(1.1); /* Resim üzerine gelindiğinde yüzde 10 büyütme efekti */
+}
+
+
+ul li {
+    color: purple;
+    font-style: italic;
+}
+
+
+ul:nth-child(3) li {
+    color: red;
+    font-weight: bold;
+}
